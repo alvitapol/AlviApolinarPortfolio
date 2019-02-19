@@ -1,0 +1,48 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Artist's Top 5 Songs</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    h1 {
+        margin-bottom: -25;
+        text-align : center;
+    }
+
+    body {
+        background-color: #8f99a8;
+        margin: 0;
+        padding: 0;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align : center;
+    }
+
+    .white-box {
+        margin : 50px;
+        background-color: #ffffff;
+        padding : 20px;
+        border-radius: 50px;
+    }
+
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/apple_api.js"></script>
+</head>
+
+<body>
+    <h1>Artist's Top 5 Songs</h1>
+<div class = "white-box">
+    <p>This is a very simple API Project done with the Apple API. Based on your favorite artist, it will
+        bring up the first 5 songs by that artist or featuring that artist.
+    <div id="top3"></div>
+</div>
+</body>
+</html>
